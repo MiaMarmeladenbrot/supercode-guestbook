@@ -1,0 +1,10 @@
+.edit-entry.hide {
+  display: none;
+}
+
+.edit-entry.show {
+  margin: 0 auto;
+  min-width: 25rem;
+
+  margin-bottom: 2rem;
+}

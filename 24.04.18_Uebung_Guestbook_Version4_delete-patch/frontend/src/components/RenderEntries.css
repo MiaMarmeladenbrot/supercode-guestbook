@@ -1,0 +1,25 @@
+.render-entries div {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+
+  min-width: 25rem;
+  margin-bottom: 1.5rem;
+}
+
+.render-entries article {
+  display: flex;
+  gap: 1rem;
+}
+
+.render-entries img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.render-entries svg {
+  width: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.render-entries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.render-entries div {
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  width: 13rem;
+
+  margin-bottom: 5rem;
+}
+
+form input,
+form button {
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.23);
+}
+
+form input {
+  width: 100%;
+}
+
+form button {
+  background-color: white;
+  background-color: lightblue;
+  cursor: pointer;
+
+  margin-bottom: 1rem;
+}
+
+form p {
+  color: red;
+}
